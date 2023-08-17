@@ -1,7 +1,7 @@
 import time
 import spidev
 import RPi.GPIO as GPIO
-from sx127x import SX127x
+import SX127x
 
 # Pin definitions
 CS_PIN = 8      # NSS
